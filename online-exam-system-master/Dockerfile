@@ -4,4 +4,4 @@ COPY . .
 RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 EXPOSE 8080
-CMD ["java","-jar","target/online-exam-system-0.0.1-SNAPSHOT.jar"]
+CMD ["java","-jar","target/online-exam-0.0.1-SNAPSHOT.jar"]
